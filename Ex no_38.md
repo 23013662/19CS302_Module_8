@@ -68,7 +68,9 @@ int main()
 
     return 0;
 }
+
 output:
+
 ![image](https://github.com/user-attachments/assets/b238ad7e-62b2-411d-a2ed-066b267bae5f)
 
 
