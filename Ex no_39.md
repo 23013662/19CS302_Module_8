@@ -4,7 +4,7 @@
 To write a C program to find sum of digits.
 
 ## Algorithm
-1. 1. Start. 
+1. Start. 
 2. Define a variables. 
 3. Write a program to print the sum and difference of the integers.. 
 4. Read the value using scanf. 
