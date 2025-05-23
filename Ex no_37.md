@@ -65,7 +65,8 @@ i++;
 
 } 
 
-OUTPUT: 
+OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/80770b52-e499-4bcf-b93b-f09f9be5eae8)
 
  
