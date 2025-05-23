@@ -22,16 +22,21 @@ ALGORITHM:
  
 PROGRAM: 
 #include<stdio.h> 
+
 int main() 
+
 { 
-char a[20]; 
+char a[20];
+
 scanf("%[^\n]",a); 
+
 printf("Hello, Saveetha!\n%s",a); 
 } 
  
  
-OUTPUT: 
- ![image](https://github.com/user-attachments/assets/bc1ce7d4-bec1-45c3-9439-7c376082ecee)
+OUTPUT:
+
+![image](https://github.com/user-attachments/assets/bc1ce7d4-bec1-45c3-9439-7c376082ecee)
 
  
 RESULT: 
