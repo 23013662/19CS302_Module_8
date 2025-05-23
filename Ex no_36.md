@@ -20,7 +20,8 @@ ALGORITHM:
 6. Print out the answer. 
 7. End. 
  
-PROGRAM: 
+PROGRAM:
+
 #include<stdio.h> 
 
 int main() 
@@ -31,6 +32,7 @@ char a[20];
 scanf("%[^\n]",a); 
 
 printf("Hello, Saveetha!\n%s",a); 
+
 } 
  
  
