@@ -51,3 +51,90 @@ bc
 a bc bc
 bc a bc
 bc bc a
+
+AIM: 
+To write a program to print permutation for the given string. 
+ 
+ 
+ALGORITHM: 
+1. Start. 
+2. Define a variables. 
+3. Write a program to print permutation for the given string. 
+4. Read the value using scanf. 
+5. Ask the user to make an input. 
+6. Print out the answer. 
+7. End. 
+ 
+PROGRAM:
+
+#include <stdio.h> 
+
+#include <string.h> 
+
+void swap(char *x, 
+
+char *y) { 
+
+    char temp;
+    
+    temp = *x; 
+    
+    *x = *y; 
+    
+    *y = temp; 
+} 
+ 
+void permute(char *str,
+
+int l, int r) { 
+
+    if (l == r) { 
+    
+        printf("%s\n", str);
+        
+    } else { 
+        for (int i = l; i <= 
+r; i++)
+{ 
+            swap((str + l), 
+(str + i));     
+            permute(str, l + 
+1, r);            
+            swap((str + l), 
+(str + i));       
+        } 
+    } 
+} 
+ 
+int main() { 
+    char str[100];
+    
+printf("Enter a 
+string: "); 
+
+    scanf("%s", str); 
+ 
+    int n = strlen(str); 
+    printf("All 
+permutations of the 
+string are:\n"); 
+
+    permute(str, 0, n - 1); 
+     
+    return 0; 
+}
+  
+INPUT:
+
+![image](https://github.com/user-attachments/assets/dd870f6e-1db2-4b82-a05a-e74431f6a82c)
+ 
+ 
+OUTPUT: 
+
+![image](https://github.com/user-attachments/assets/f50a74e2-9def-4c83-b76a-14dea406bec1)
+
+
+ 
+ 
+RESULT: 
+Thus, the program is executed and verified successfully.
